@@ -13,14 +13,14 @@ export default function Page() {
       <header className="sticky top-0 z-10 bg-white">
         <div className="mx-auto max-w-7xl px-4 py-4 flex items-center gap-6">
           <Link href="#" className="flex items-center gap-2 font-semibold">
-            <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg text-white" style={{backgroundColor: '#000aa7'}}>
-              <Shield className="h-4 w-4" aria-hidden="true" />
+            <span className="inline-flex h-9 w-9 items-center justify-center rounded-lg text-white" style={{backgroundColor: '#000aa7'}}>
+              <Shield className="h-5 w-5" aria-hidden="true" />
             </span>
-            <span className="text-[17px]">Paulicon Corretora</span>
+            <span className="text-lg font-heading">Paulicon Corretora</span>
           </Link>
 
           <nav className="ml-6 hidden md:block">
-            <ul className="flex items-center gap-8 text-sm">
+            <ul className="flex items-center gap-8 text-base font-medium">
               <li>
                 <Link href="#" className="text-gray-700 hover:text-black transition-colors">
                   Início
@@ -50,7 +50,7 @@ export default function Page() {
           </nav>
 
           <div className="ml-auto">
-            <button className="flex items-center gap-2 rounded-full border bg-white px-4 py-2 text-sm font-medium transition-all hover:bg-gray-50" style={{borderColor: '#000aa7', color: '#000aa7'}}>
+            <button className="flex items-center gap-2 rounded-full border bg-white px-5 py-2.5 text-base font-medium transition-all hover:bg-gray-50" style={{borderColor: '#000aa7', color: '#000aa7'}}>
               Solicitar Cotação
               <span className="flex h-5 w-5 items-center justify-center rounded-full text-white" style={{backgroundColor: '#000aa7'}}>
                 <ChevronRight className="h-3 w-3" />
