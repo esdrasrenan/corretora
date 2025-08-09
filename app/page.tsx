@@ -13,7 +13,7 @@ export default function Page() {
       <header className="sticky top-0 z-10 bg-white">
         <div className="mx-auto max-w-7xl px-4 py-4 flex items-center gap-6">
           <Link href="#" className="flex items-center gap-2 font-semibold">
-            <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-blue-900 text-white">
+            <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg text-white" style={{backgroundColor: '#000aa7'}}>
               <Shield className="h-4 w-4" aria-hidden="true" />
             </span>
             <span className="text-[17px]">Paulicon Corretora</span>
@@ -50,9 +50,9 @@ export default function Page() {
           </nav>
 
           <div className="ml-auto">
-            <button className="flex items-center gap-2 rounded-full border border-black bg-white px-4 py-2 text-sm font-medium text-black transition-all hover:bg-gray-50">
+            <button className="flex items-center gap-2 rounded-full border bg-white px-4 py-2 text-sm font-medium transition-all hover:bg-gray-50" style={{borderColor: '#000aa7', color: '#000aa7'}}>
               Solicitar Cotação
-              <span className="flex h-5 w-5 items-center justify-center rounded-full bg-black text-white">
+              <span className="flex h-5 w-5 items-center justify-center rounded-full text-white" style={{backgroundColor: '#000aa7'}}>
                 <ChevronRight className="h-3 w-3" />
               </span>
             </button>
@@ -73,7 +73,7 @@ export default function Page() {
         {/* Mosaic grid */}
         <div className="mt-8 md:mt-12 grid gap-4 sm:gap-6 lg:grid-cols-12">
           {/* Left metric card */}
-          <div className="rounded-2xl bg-blue-100 text-gray-900 p-6 sm:p-8 lg:col-span-4">
+          <div className="rounded-2xl text-white p-6 sm:p-8 lg:col-span-4" style={{backgroundColor: '#000aa7'}}>
             <div className="text-5xl font-extrabold tracking-tight">+25</div>
             <p className="mt-6 text-sm leading-6">Anos de experiência no setor de seguros para transportadoras</p>
           </div>
@@ -113,7 +113,7 @@ export default function Page() {
           </div>
 
           {/* Bottom-right metric card */}
-          <div className="rounded-2xl bg-green-100 text-gray-900 p-6 sm:p-8 lg:col-span-3">
+          <div className="rounded-2xl text-white p-6 sm:p-8 lg:col-span-3" style={{backgroundColor: '#000aa7'}}>
             <div className="text-4xl font-extrabold tracking-tight">Nacional</div>
             <p className="mt-6 text-sm leading-6">Atuação em todo território brasileiro e operações internacionais</p>
           </div>

@@ -141,7 +141,7 @@ export default function ContinuationSections() {
                 </div>
                 <div className="p-6">
                   <div className="font-semibold text-lg">{t.name}</div>
-                  <div className="text-sm text-blue-900 font-medium mt-1">{t.role}</div>
+                  <div className="text-sm font-medium mt-1" style={{color: '#000aa7'}}>{t.role}</div>
                   <p className="text-sm text-muted-foreground mt-3 leading-relaxed">{t.description}</p>
                 </div>
               </CardContent>
@@ -207,7 +207,7 @@ export default function ContinuationSections() {
         
         <div className="grid gap-6 md:grid-cols-2">
           {/* Services CTA */}
-          <div className="rounded-2xl p-6 sm:p-8 text-white bg-gradient-to-r from-blue-900 to-blue-700">
+          <div className="rounded-2xl p-6 sm:p-8 text-white" style={{background: 'linear-gradient(to right, #000aa7, #0015d4)'}}>
             <h3 className="text-2xl md:text-3xl font-semibold">Proteção completa para seu negócio</h3>
             <p className="mt-3 text-white/90">Soluções personalizadas em seguros para transportadoras e empresas.</p>
             <ul className="mt-5 space-y-2 text-sm">
@@ -228,7 +228,7 @@ export default function ContinuationSections() {
                 Vida e Saúde para colaboradores
               </li>
             </ul>
-            <Button size="sm" className="mt-6 rounded-full bg-white text-blue-900 hover:bg-white/90">
+            <Button size="sm" className="mt-6 rounded-full bg-white hover:bg-white/90" style={{color: '#000aa7'}}>
               Solicitar cotação
             </Button>
           </div>
@@ -256,7 +256,7 @@ export default function ContinuationSections() {
                   </aside>
                   <div className="p-5">
                     <div className="flex items-start gap-3">
-                      <div className="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-blue-900 text-white">
+                      <div className="inline-flex h-9 w-9 items-center justify-center rounded-lg text-white" style={{backgroundColor: '#000aa7'}}>
                         <Shield className="h-4 w-4" />
                       </div>
                       <div className="flex-1">
@@ -264,7 +264,7 @@ export default function ContinuationSections() {
                           <p className="text-sm leading-6">
                             Análise completa de riscos e coberturas personalizadas para sua operação.
                           </p>
-                          <div className="mt-3 h-16 rounded-lg bg-gradient-to-r from-violet-200 via-fuchsia-200 to-pink-200" />
+                          <div className="mt-3 h-16 rounded-lg" style={{background: 'linear-gradient(to right, #e6e8ff, #c9ceff, #b3b8ff)'}} />
                         </div>
                         <div className="mt-3 ml-auto w-3/4 rounded-xl bg-blue-50 p-3">
                           <p className="text-sm">Cotação enviada com as melhores opções do mercado.</p>
@@ -285,7 +285,7 @@ export default function ContinuationSections() {
           <div className="grid gap-8 md:grid-cols-4">
             <div className="md:col-span-2">
               <div className="flex items-center gap-2 font-semibold">
-                <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-blue-900 text-white">
+                <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg text-white" style={{backgroundColor: '#000aa7'}}>
                   <Shield className="h-4 w-4" />
                 </span>
                 <span>Paulicon Corretora</span>

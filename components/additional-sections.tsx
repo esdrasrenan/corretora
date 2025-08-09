@@ -45,10 +45,10 @@ export default function AdditionalSections() {
             bg="bg-amber-50"
           />
           <ValueCard
-            icon={<ShieldCheck className="h-4 w-4 text-emerald-700" />}
+            icon={<ShieldCheck className="h-4 w-4" style={{color: '#000aa7'}} />}
             title="Integridade e confiança"
             desc="Atendemos com transparência, responsabilidade e foco no que realmente importa: proteger você."
-            bg="bg-emerald-50"
+            bg="bg-blue-50"
           />
           <ValueCard
             icon={<Handshake className="h-4 w-4 text-violet-700" />}
@@ -57,10 +57,10 @@ export default function AdditionalSections() {
             bg="bg-violet-50"
           />
           <ValueCard
-            icon={<CheckCircle2 className="h-4 w-4 text-purple-700" />}
+            icon={<CheckCircle2 className="h-4 w-4" style={{color: '#000aa7'}} />}
             title="Atendimento especializado"
             desc="Expertise no setor de transporte com soluções modulares para redução de custos e riscos."
-            bg="bg-purple-50"
+            bg="bg-blue-50"
           />
           <ValueCard
             icon={<Users className="h-4 w-4 text-pink-700" />}
@@ -107,7 +107,7 @@ export default function AdditionalSections() {
             </ul>
 
             <div className="mt-6">
-              <Button className="rounded-full bg-blue-900 text-white hover:bg-blue-800" size="sm">
+              <Button className="rounded-full text-white" size="sm" style={{backgroundColor: '#000aa7'}}>
                 Solicitar cotação agora
               </Button>
             </div>
