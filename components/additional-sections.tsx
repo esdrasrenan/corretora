@@ -17,8 +17,8 @@ function ValueCard({
   return (
     <div className="rounded-2xl border bg-white p-5 sm:p-6 shadow-sm">
       <div className={`inline-flex h-9 w-9 items-center justify-center rounded-lg ${bg}`}>{icon}</div>
-      <h3 className="mt-3 font-semibold">{title}</h3>
-      <p className="mt-2 text-sm text-muted-foreground leading-6">{desc}</p>
+      <h3 className="mt-3 font-heading font-bold">{title}</h3>
+      <p className="mt-2 text-sm text-muted-foreground leading-6 font-body">{desc}</p>
     </div>
   )
 }
@@ -29,10 +29,10 @@ export default function AdditionalSections() {
       {/* Values overview + 6 cards */}
       <section className="mx-auto max-w-7xl px-4 mt-12 md:mt-16">
         <div className="grid gap-6 md:grid-cols-2">
-          <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">
+          <h2 className="text-3xl md:text-4xl font-heading font-bold tracking-tight">
             Soluções inteligentes em seguros
           </h2>
-          <p className="text-muted-foreground leading-7">
+          <p className="text-muted-foreground leading-7 font-body">
             Nossa missão é oferecer soluções personalizadas que protejam o patrimônio e as pessoas, com atendimento próximo, rápido e especializado.
           </p>
         </div>
@@ -81,10 +81,10 @@ export default function AdditionalSections() {
       <section className="mx-auto max-w-7xl px-4 mt-14 md:mt-20">
         <div className="grid gap-8 md:grid-cols-2 items-start">
           <div>
-            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold tracking-tight">
               Transformando proteção em resultados
             </h2>
-            <p className="mt-4 text-muted-foreground leading-7">
+            <p className="mt-4 text-muted-foreground leading-7 font-body">
               Combinamos expertise no setor de transporte e conhecimento técnico para garantir tranquilidade e eficiência para transportadores, empresas e pessoas.
             </p>
             <ul className="mt-5 space-y-3">

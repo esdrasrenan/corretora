@@ -124,7 +124,7 @@ export default function ContinuationSections() {
     <>
       {/* Team strip */}
       <section className="mx-auto mt-14 md:mt-20 max-w-7xl px-4">
-        <h2 className="text-center text-2xl md:text-3xl font-semibold">Quem cuida da sua segurança</h2>
+        <h2 className="text-center text-2xl md:text-3xl font-heading font-bold">Quem cuida da sua segurança</h2>
 
         <div className="mt-6 grid gap-6 sm:grid-cols-2 max-w-4xl mx-auto">
           {team.map((t) => (
@@ -140,9 +140,9 @@ export default function ContinuationSections() {
                   />
                 </div>
                 <div className="p-6">
-                  <div className="font-semibold text-lg">{t.name}</div>
+                  <div className="font-heading font-bold text-lg">{t.name}</div>
                   <div className="text-sm font-medium mt-1" style={{color: '#000aa7'}}>{t.role}</div>
-                  <p className="text-sm text-muted-foreground mt-3 leading-relaxed">{t.description}</p>
+                  <p className="text-sm text-muted-foreground mt-3 leading-relaxed font-body">{t.description}</p>
                 </div>
               </CardContent>
             </Card>
@@ -152,7 +152,7 @@ export default function ContinuationSections() {
 
       {/* Testimonials grid */}
       <section className="mx-auto mt-16 md:mt-20 max-w-7xl px-4">
-        <h2 className="text-center text-2xl md:text-3xl font-semibold">Depoimentos de nossos clientes</h2>
+        <h2 className="text-center text-2xl md:text-3xl font-heading font-bold">Depoimentos de nossos clientes</h2>
 
         <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {testimonials.map((t) => (
@@ -167,11 +167,11 @@ export default function ContinuationSections() {
                     className="h-12 w-12 rounded-full object-cover"
                   />
                   <div>
-                    <div className="text-sm font-medium">{t.name}</div>
-                    <div className="text-xs text-muted-foreground">{t.role}</div>
+                    <div className="text-sm font-heading font-semibold">{t.name}</div>
+                    <div className="text-xs text-muted-foreground font-body">{t.role}</div>
                   </div>
                 </div>
-                <p className="mt-3 text-sm leading-6 text-muted-foreground">{t.text}</p>
+                <p className="mt-3 text-sm leading-6 text-muted-foreground font-body">{t.text}</p>
                 <div className="mt-3">
                   <Stars n={t.rating ?? 5} />
                 </div>
@@ -185,8 +185,8 @@ export default function ContinuationSections() {
       <section className="mx-auto mt-16 md:mt-20 max-w-7xl px-4">
         <div className="grid gap-8 md:grid-cols-2">
           <div>
-            <h2 className="text-2xl md:text-3xl font-semibold">Perguntas frequentes</h2>
-            <p className="mt-2 text-sm text-muted-foreground">
+            <h2 className="text-2xl md:text-3xl font-heading font-bold">Perguntas frequentes</h2>
+            <p className="mt-2 text-sm text-muted-foreground font-body">
               Tire suas dúvidas sobre nossos serviços, coberturas e processo de contratação.
             </p>
           </div>
@@ -203,13 +203,13 @@ export default function ContinuationSections() {
 
       {/* Services + CTA */}
       <section className="mx-auto mt-16 md:mt-20 max-w-7xl px-4">
-        <h2 className="text-center text-2xl md:text-3xl font-semibold mb-8">O que oferecemos</h2>
+        <h2 className="text-center text-2xl md:text-3xl font-heading font-bold mb-8">O que oferecemos</h2>
         
         <div className="grid gap-6 md:grid-cols-2">
           {/* Services CTA */}
           <div className="rounded-2xl p-6 sm:p-8 text-white" style={{background: 'linear-gradient(to right, #000aa7, #0015d4)'}}>
-            <h3 className="text-2xl md:text-3xl font-semibold">Proteção completa para seu negócio</h3>
-            <p className="mt-3 text-white/90">Soluções personalizadas em seguros para transportadoras e empresas.</p>
+            <h3 className="text-2xl md:text-3xl font-heading font-bold">Proteção completa para seu negócio</h3>
+            <p className="mt-3 text-white/90 font-body">Soluções personalizadas em seguros para transportadoras e empresas.</p>
             <ul className="mt-5 space-y-2 text-sm">
               <li className="flex items-start gap-2">
                 <CheckCircle2 className="mt-0.5 h-5 w-5" />

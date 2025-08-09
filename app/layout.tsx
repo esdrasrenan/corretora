@@ -1,12 +1,24 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Montserrat, Open_Sans } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const montserrat = Montserrat({ 
+  subsets: ["latin"],
+  variable: '--font-montserrat',
+  weight: ['400', '500', '600', '700', '800'],
+  display: 'swap',
+});
+
+const openSans = Open_Sans({ 
+  subsets: ["latin"],
+  variable: '--font-open-sans',
+  weight: ['300', '400', '500', '600', '700'],
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
-  title: "Chatassist - AI driven solutions",
-  description: "AI driven solutions for business operations",
+  title: "Paulicon Corretora - Proteção que vai além do seguro",
+  description: "Há mais de 25 anos protegendo o patrimônio de transportadoras e empresas. Especialistas em seguro de cargas.",
 };
 
 export default function RootLayout({
@@ -16,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={inter.className}>{children}</body>
+      <body className={`${montserrat.variable} ${openSans.variable} font-sans`}>{children}</body>
     </html>
   );
 }

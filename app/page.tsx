@@ -62,11 +62,11 @@ export default function Page() {
 
       {/* Hero Title */}
       <section className="mx-auto max-w-7xl px-4">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight text-center mt-10 md:mt-14">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold tracking-tight text-center mt-10 md:mt-14">
           Proteção que vai além do seguro
         </h1>
 
-        <p className="text-lg text-gray-600 text-center mt-4 max-w-3xl mx-auto">
+        <p className="text-lg text-gray-600 text-center mt-4 max-w-3xl mx-auto font-body">
           Há mais de 25 anos no mercado, a Paulicon Corretora de Seguros é referência nacional na proteção de cargas e na segurança do transporte rodoviário.
         </p>
 
