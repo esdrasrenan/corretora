@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node:*)",
+      "Bash(npm:*)",
+      "Bash(mkdir:*)",
+      "Bash(move page.tsx apppage.tsx)",
+      "Bash(mv:*)",
+      "Bash(rm:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": []
+  }
+}
