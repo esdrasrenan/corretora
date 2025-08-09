@@ -15,8 +15,12 @@ Site institucional da Paulicon Corretora de Seguros, especializada em seguros pa
 - **Hover states**: gray-50 (botões brancos), opacity changes
 
 ### Tipografia
-- Font-family: Inter (Google Fonts)
-- Títulos: font-semibold, tracking-tight
+- **Títulos (h1-h6)**: Montserrat Bold (700)
+  - Letter-spacing: -0.02em
+  - Classe utilitária: `.font-heading`
+- **Textos**: Open Sans (300-700)
+  - Letter-spacing: -0.01em (mais próximo, como nas redes sociais)
+  - Classe utilitária: `.font-body`
 - Tamanhos: text-6xl (hero), text-4xl (seções), text-2xl (subseções)
 
 ## 🏗️ Estrutura do Projeto
