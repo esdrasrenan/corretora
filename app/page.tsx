@@ -81,7 +81,7 @@ export default function Page() {
           {/* Center tall image (row span 2) */}
           <div className="relative overflow-hidden rounded-2xl lg:col-span-5 lg:row-span-2">
             <Image
-              src="/placeholder.svg"
+              src="/principal.png"
               alt="Caminhão em rodovia - transporte seguro"
               width={920}
               height={860}
@@ -93,7 +93,7 @@ export default function Page() {
           {/* Right top image */}
           <div className="relative overflow-hidden rounded-2xl lg:col-span-3">
             <Image
-              src="/placeholder.svg"
+              src="/direita.png"
               alt="Equipe Paulicon em atendimento"
               width={520}
               height={420}
@@ -104,7 +104,7 @@ export default function Page() {
           {/* Bottom-left team image */}
           <div className="relative overflow-hidden rounded-2xl lg:col-span-4">
             <Image
-              src="/placeholder.svg"
+              src="/esquerda.png"
               alt="Central de monitoramento de cargas"
               width={560}
               height={360}
